@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.rest.json.AlticciResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.109 s <<< FAILURE! - in org.acme.rest.json.AlticciResourceTest
+org.acme.rest.json.AlticciResourceTest.testGet  Time elapsed: 1.259 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot invoke method size() on null object
+	at org.acme.rest.json.AlticciResourceTest.testGet(AlticciResourceTest.java:22)
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.acme.rest.json.AlticciResourceTest.testGet(AlticciResourceTest.java:22)
+
